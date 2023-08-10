@@ -1,8 +1,9 @@
 commands for installation:
 
-``
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/
+``git clone https://github.com/codesshaman/vpn_shadowsocks_installer.git``
 
-master/shadowsocks-all.sh
-chmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+``cd vpn_shadowsocks_installer``
+
+``chmod +x shadowsocks-all.sh``
+
+``./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log``
